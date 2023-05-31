@@ -1,0 +1,142 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(weltreise.jpeg);
+    background-size: auto;
+    margin: 20px;
+    padding: 0;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    
+}
+
+
+nav {
+    background-color: transparent;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    margin-left: 5px;
+    padding: 14px 16px;
+}
+
+
+nav ul li a:hover {
+    background-color: transparent;
+}
+
+
+section {
+    margin-bottom: 100px;
+}
+
+
+h2 {
+    margin-top: 20px;
+}
+
+
+article {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+article h3 {
+    margin-top: 0;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input,
+textarea {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+
+footer {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.post1 {
+    background-image: url(wissembourg1.jpg);
+    background-size: cover;
+    color: white;
+    font-size: larger;
+
+}
+
+.post2 {
+    background-image: url(pfälzerwald1.jpg);
+    background-size: cover;
+    color: white;
+    font-size: larger;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+}
+
